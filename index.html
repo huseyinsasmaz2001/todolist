@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="asset/style/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">To-Do List</h1>
+    <form class="form" onsubmit="addTask(); return false;">
+      <input type="text" id="taskInput" class="form__input" placeholder="Add new task">
+      <button type="submit" class="form__button">+</button>
+    </form>
+    <div class="filters">
+      <button class="filters__button" onclick="filterTasks(true)">Completed</button>
+      <button class="filters__button" onclick="filterTasks(false)">Not Completed</button>
+      <button class="show-all-button" onclick="showAllTasks()">Show All Tasks</button>
+      <button class="delete-all-button" onclick="deleteAllTasks()">Delete All Tasks</button>
+    </div>
+    <ul id="taskList" class="task-list"></ul>
+  </div>
+
+  <script src="asset/script/main.js"></script>
+</body>
+</html>
+

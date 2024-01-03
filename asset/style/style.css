@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Long+Cang&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+body {
+  background-color: #222;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: "Long Cang", sans-serif;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form__input {
+  padding: 8px;
+  margin-right: 5px;
+  background-color: #333;
+  color: #eee;
+  border: 1px solid #444;
+}
+
+.form__button {
+  padding: 10px 20px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 0 8px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-size: 15px;
+  transition: all 0.5s ease;
+  font-family: "Bungee Spice", sans-serif;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.form__button:hover {
+  letter-spacing: 3px;
+  background-color: hsl(121, 90%, 51%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93, 24, 220) 0px 7px 29px 0px;
+}
+
+.form__button:active {
+  letter-spacing: 3px;
+  background-color: hsl(261, 80%, 48%);
+  color: hsl(0, 0%, 100%);
+  box-shadow: rgb(93, 24, 220) 0px 0px 0px 0px;
+  transform: translateY(10px);
+  transition: 100ms;
+}
+
+.filters {
+  margin-bottom: 10px;
+}
+
+.filters__button {
+  padding: 8px 15px;
+  cursor: pointer;
+  background: linear-gradient(to bottom right, #030000, #71035a);
+  color: #eee;
+  border: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 35%;
+  font-family: "Bungee Spice", sans-serif;
+  margin-right: 10px;
+}
+
+.filters__button:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+  font-family: "Shadows Into Light", sans-serif;
+  font-size: 20px;
+}
+
+.task-list__item {
+  margin: 5px 0;
+}
+
+.task-list__item.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.delete-all-button {
+  padding: 8px 15px;
+  background: linear-gradient(to bottom right, #030000, #907d04);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  font-family: "Bungee Spice", sans-serif;
+  margin-right: 10px;
+}
+
+.delete-all-button:hover {
+  background-color: #8a000a;
+}
+
+.show-all-button {
+  padding: 8px 15px;
+  background: linear-gradient(to bottom right, #030000, #97f30e);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  font-family: "Bungee Spice", sans-serif;
+  margin-right: 10px;
+}
+
+.show-all-button:hover {
+  background-color: #97f30e;
+}/*# sourceMappingURL=style.css.map */
